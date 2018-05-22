@@ -7,13 +7,25 @@ import com.google.gson.GsonBuilder;
 public class NoobChain {
 	
 	public static ArrayList<Block> blockchain = new ArrayList<>();
+	private static int difficulty = 5;
+	
 	
 	public static void main(String[] args) {
 		
 		//Add our blocks to blockchain list:
-		blockchain.add(new Block("Hi i am the first block","0"));
-		blockchain.add(new Block("Yo I am the second block",blockchain.get(blockchain.size()-1).hash));
-		blockchain.add(new Block("Yo I am the third block",blockchain.get(blockchain.size()-1).hash));
+		blockchain.add(new Block("HI i am the first block","0"));
+		System.out.println("Trying to mine block 1");
+		blockchain.get(0).mineBlock(difficulty);
+		
+		blockchain.add(new Block("HI i am the second block",blockchain.get(blockchain.size() - 1).hash));
+		System.out.println("Trying to mine block 2");
+		blockchain.get(1).mineBlock(difficulty);
+		
+		blockchain.add(new Block("HI i am the third block",blockchain.get(blockchain.size() - 1).hash));
+		System.out.println("Trying to mine block 3");
+		blockchain.get(2).mineBlock(difficulty);
+		
+		System.out.println("\nBlockChain is valid: "+ isChainValid());
 		
 		String blockChainJson = new GsonBuilder().setPrettyPrinting().create().toJson(blockchain);
 		System.out.println(blockChainJson);
