@@ -1,17 +1,42 @@
 package noobchain;
 
+import java.util.ArrayList;
+
+import com.google.gson.GsonBuilder;
+
 public class NoobChain {
+	
+	public static ArrayList<Block> blockchain = new ArrayList<>();
 	
 	public static void main(String[] args) {
 		
-		Block genesisBlock = new Block("Hi i am the first block","0");
-		System.out.println("Hash for block 1: " + genesisBlock.hash);
+		//Add our blocks to blockchain list:
+		blockchain.add(new Block("Hi i am the first block","0"));
+		blockchain.add(new Block("Yo I am the second block",blockchain.get(blockchain.size()-1).hash));
+		blockchain.add(new Block("Yo I am the third block",blockchain.get(blockchain.size()-1).hash));
 		
-		Block secondBlock = new Block("Hi i am the first block",genesisBlock.hash);
-		System.out.println("Hash for block 2: " + secondBlock.hash);
+		String blockChainJson = new GsonBuilder().setPrettyPrinting().create().toJson(blockchain);
+		System.out.println(blockChainJson);
+	}
+	
+	public static Boolean isChainValid() {
+		Block currentBlock;
+		Block previousBlock;
 		
-		Block thirdBlock = new Block("Hi i am the first block",secondBlock.hash);
-		System.out.println("Hash for block 3: " + thirdBlock.hash);
+		for(int i = 1; i < blockchain.size(); i++) {
+			currentBlock = blockchain.get(i);
+			previousBlock = blockchain.get(i -1);
+			
+			if (!currentBlock.hash.equals(currentBlock.calculateHash())) {
+				System.out.println("Current hashes are not equal");
+				return false;
+			}
+			if (!previousBlock.hash.equals(previousBlock.calculateHash())) {
+				System.out.println("Previous hashes are not equal");
+				return false;
+			}
+		}
+		return true;
 	}
 
 }
