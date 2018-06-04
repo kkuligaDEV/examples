@@ -1,0 +1,32 @@
+package noobchain;
+
+import java.util.ArrayList;
+
+import com.google.gson.GsonBuilder;
+
+public class NoobChain {
+	
+	public static ArrayList<Block> blockchain = new ArrayList<>();
+	
+	public static void main(String[] args) {
+		
+		//Add our blocks to blockchain list:
+		blockchain.add(new Block("Hi i am the first block","0"));
+		blockchain.add(new Block("Yo I am the second block",blockchain.get(blockchain.size()-1).hash));
+		blockchain.add(new Block("Yo I am the third block",blockchain.get(blockchain.size()-1).hash));
+		
+		String blockChainJson = new GsonBuilder().setPrettyPrinting().create().toJson(blockchain);
+		System.out.println(blockChainJson);
+	}
+	
+	public static Boolean isChainValid() {
+		Block currentBlock;
+		Block previousBlock;
+		
+		for(int i = 1; i < blockchain.size(), i++) {
+			currentBlock = blockchain.get(i);
+			previousBlock = blockchain.get(i -1);
+		}
+	}
+
+}

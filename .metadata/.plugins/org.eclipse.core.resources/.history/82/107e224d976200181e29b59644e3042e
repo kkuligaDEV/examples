@@ -1,0 +1,7 @@
+package concurrency;
+
+public class UseMyRunnable {
+	public static void main(String[] args) {
+		List<MyRunnable> threads;
+	}
+}

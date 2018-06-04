@@ -1,0 +1,20 @@
+package concurrency;
+
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+import java.util.stream.IntStream;
+
+public class LocksDemo {
+	private Counter counter = new Counter();
+	
+	public void demoCounter() {
+		ExecutorService service = Executors.newCachedThreadPool();
+		IntStream.range(0,100).forEach(i -> service.submit(counter::increment));
+		service.shutdown();
+	}
+	
+	public static void main(String[] args) {
+		
+	}
+
+}

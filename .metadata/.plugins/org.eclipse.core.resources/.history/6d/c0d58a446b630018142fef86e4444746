@@ -1,0 +1,22 @@
+package concurrency;
+
+import java.util.List;
+import java.util.concurrent.Callable;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
+
+public class CallablesDemo {
+	public static void main(String[] args) {
+		List<Callable<String>> callables = Stream.iterate(0, n -> n + 1)
+				.limit(10)
+				.map(MyCallable::new)
+				.collect(Collectors.toList());
+		
+		ExecutorService service = Executors.newFixedThreadPool(3);
+		try {
+			List<Future<String>> futures;
+		}
+	}
+}

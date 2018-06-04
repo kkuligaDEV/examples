@@ -1,0 +1,26 @@
+package concurrency;
+
+import java.nio.file.Path;
+import java.nio.file.Paths;
+import java.util.concurrent.ExecutionException;
+
+public class FilesLineCounter {
+
+	private Path dir = Paths.get("src", "concurrency") ;
+	
+	
+	public long computeTotalNumberOfLines() {
+		long total = 0;
+		try {
+			total = executeCounters().stream()
+					.mapToLong(this::extractValueFromFuture)
+					.sum();
+		} catch (InterruptedException | ExecutionException e) {
+			e.printStackTrace(s);
+		}
+	}
+	
+	public static void main(String[] args) {
+		FilesLineCounter demo = new FilesLineCounter();
+	}
+}

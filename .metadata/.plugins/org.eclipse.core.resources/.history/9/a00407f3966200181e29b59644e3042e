@@ -1,0 +1,14 @@
+package concurrency;
+
+public class MyRunnable implements Runnable {
+
+	private int id;
+	private Thread thread = new Thread(this);
+	
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}
