@@ -1,0 +1,9 @@
+package concurrency;
+
+public class LocksDemo {
+	
+	public static void main(String[] args) {
+		
+	}
+
+}

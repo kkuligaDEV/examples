@@ -1,0 +1,11 @@
+package noobchain;
+
+import java.security.MessageDigest;
+
+public class StringUtil {
+	public static String applySHA256(String input) {
+		try {
+			MessageDigest digest = MessageDigest.getInstance("SHA-256");
+		}
+	}
+}

@@ -1,0 +1,10 @@
+package concurrency;
+
+public class LocksDemo {
+	private Counter counter = new Counter();
+	
+	public static void main(String[] args) {
+		
+	}
+
+}

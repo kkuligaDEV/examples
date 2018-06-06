@@ -1,0 +1,10 @@
+package concurrency;
+
+import java.util.List;
+import java.util.concurrent.Callable;
+
+public class CallablesDemo {
+	public static void main(String[] args) {
+		List<Callable<String>> callables = Stream.iterate(0, n -> n + 1);
+	}
+}
