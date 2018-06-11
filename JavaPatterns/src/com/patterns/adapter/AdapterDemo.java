@@ -1,4 +1,4 @@
-package com.patterns.adapter.com.patterns.adapter.interfaces;
+package com.patterns.adapter;
 
 import java.util.List;
 

@@ -2,9 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fffe9c8a-87e6-4c0d-9a02-b005216e6dab" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/../JavaCourse2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaCourse2/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/patterns/adapter/com/patterns/adapter/interfaces/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/patterns/adapter/com/patterns/adapter/interfaces/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/patterns/adapter/com/patterns/adapter/interfaces/AdapterDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/patterns/adapter/AdapterDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/patterns/adapter/com/patterns/adapter/interfaces/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/patterns/adapter/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/patterns/adapter/com/patterns/adapter/interfaces/EmployeeAdapterCSV.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/patterns/adapter/EmployeeAdapterCSV.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/patterns/adapter/com/patterns/adapter/interfaces/EmployeeAdapterLdap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/patterns/adapter/EmployeeAdapterLdap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/patterns/adapter/com/patterns/adapter/interfaces/EmployeeCSV.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/patterns/adapter/EmployeeCSV.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/patterns/adapter/com/patterns/adapter/interfaces/EmployeeClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/patterns/adapter/EmployeeClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/patterns/adapter/com/patterns/adapter/interfaces/EmployeeDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/patterns/adapter/EmployeeDB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/patterns/adapter/com/patterns/adapter/interfaces/EmployeeLDAP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/patterns/adapter/EmployeeLDAP.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ProducerConsumer/README.MD" beforeDir="false" afterPath="$PROJECT_DIR$/../ProducerConsumer/README.MD" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -18,7 +24,7 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="Employee.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/patterns/adapter/com/patterns/adapter/interfaces/Employee.java">
+        <entry file="file://$PROJECT_DIR$/src/com/patterns/adapter/Employee.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
               <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
@@ -27,7 +33,7 @@
         </entry>
       </file>
       <file leaf-file-name="EmployeeDB.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/patterns/adapter/com/patterns/adapter/interfaces/EmployeeDB.java">
+        <entry file="file://$PROJECT_DIR$/src/com/patterns/adapter/EmployeeDB.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
               <caret line="37" column="18" selection-start-line="37" selection-start-column="18" selection-end-line="37" selection-end-column="18" />
@@ -45,11 +51,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EmployeeClient.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/patterns/adapter/com/patterns/adapter/interfaces/EmployeeClient.java">
+      <file leaf-file-name="EmployeeClient.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/patterns/adapter/EmployeeClient.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="320">
-              <caret line="16" column="26" lean-forward="true" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+              <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -57,8 +63,17 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/patterns/factory/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="140">
+              <caret line="7" column="44" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="EmployeeAdapterCSV.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/patterns/adapter/com/patterns/adapter/interfaces/EmployeeAdapterCSV.java">
+        <entry file="file://$PROJECT_DIR$/src/com/patterns/adapter/EmployeeAdapterCSV.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="227">
               <caret line="27" column="42" selection-start-line="27" selection-start-column="42" selection-end-line="27" selection-end-column="42" />
@@ -79,7 +94,7 @@
         </entry>
       </file>
       <file leaf-file-name="EmployeeCSV.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/patterns/adapter/com/patterns/adapter/interfaces/EmployeeCSV.java">
+        <entry file="file://$PROJECT_DIR$/src/com/patterns/adapter/EmployeeCSV.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="287">
               <caret line="26" column="24" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
@@ -97,7 +112,7 @@
         </entry>
       </file>
       <file leaf-file-name="EmployeeAdapterLdap.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/patterns/adapter/com/patterns/adapter/interfaces/EmployeeAdapterLdap.java">
+        <entry file="file://$PROJECT_DIR$/src/com/patterns/adapter/EmployeeAdapterLdap.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="600">
               <caret line="30" selection-start-line="30" selection-end-line="30" />
@@ -118,7 +133,7 @@
         </entry>
       </file>
       <file leaf-file-name="AdapterDemo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/patterns/adapter/com/patterns/adapter/interfaces/AdapterDemo.java">
+        <entry file="file://$PROJECT_DIR$/src/com/patterns/adapter/AdapterDemo.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="200">
               <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
@@ -127,7 +142,7 @@
         </entry>
       </file>
       <file leaf-file-name="EmployeeLDAP.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/patterns/adapter/com/patterns/adapter/interfaces/EmployeeLDAP.java">
+        <entry file="file://$PROJECT_DIR$/src/com/patterns/adapter/EmployeeLDAP.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="300">
               <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
@@ -167,6 +182,8 @@
         <option value="$PROJECT_DIR$/src/com/patterns/adapter/com/patterns/adapter/interfaces/EmployeeCSV.java" />
         <option value="$PROJECT_DIR$/src/com/patterns/adapter/com/patterns/adapter/interfaces/EmployeeClient.java" />
         <option value="$PROJECT_DIR$/src/com/patterns/adapter/com/patterns/adapter/interfaces/EmployeeAdapterCSV.java" />
+        <option value="$PROJECT_DIR$/src/com/patterns/adapter/EmployeeClient.java" />
+        <option value="$PROJECT_DIR$/src/com/patterns/factory/README.md" />
       </list>
     </option>
   </component>
@@ -198,7 +215,14 @@
               <item name="JavaPatterns" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaPatterns" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="interfaces" type="462c0819:PsiDirectoryNode" />
+              <item name="patterns" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaPatterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaPatterns" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="patterns" type="462c0819:PsiDirectoryNode" />
+              <item name="factory" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -318,7 +342,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20536913" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.35369128" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -341,21 +365,21 @@
     <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/patterns/adapter/com/patterns/adapter/interfaces/Employee.java">
+    <entry file="file://$PROJECT_DIR$/src/com/patterns/adapter/Employee.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="40">
           <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/patterns/adapter/com/patterns/adapter/interfaces/Employee.java">
+    <entry file="file://$PROJECT_DIR$/src/com/patterns/adapter/Employee.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/patterns/adapter/com/patterns/adapter/interfaces/EmployeeLDAP.java">
+    <entry file="file://$PROJECT_DIR$/src/com/patterns/adapter/EmployeeLDAP.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
@@ -371,7 +395,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/patterns/adapter/com/patterns/adapter/interfaces/EmployeeAdapterLdap.java">
+    <entry file="file://$PROJECT_DIR$/src/com/patterns/adapter/EmployeeAdapterLdap.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="600">
           <caret line="30" selection-start-line="30" selection-end-line="30" />
@@ -390,7 +414,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/patterns/adapter/com/patterns/adapter/interfaces/EmployeeDB.java">
+    <entry file="file://$PROJECT_DIR$/src/com/patterns/adapter/EmployeeDB.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="37" column="18" selection-start-line="37" selection-start-column="18" selection-end-line="37" selection-end-column="18" />
@@ -407,14 +431,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/patterns/adapter/com/patterns/adapter/interfaces/AdapterDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/com/patterns/adapter/AdapterDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
           <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/patterns/adapter/com/patterns/adapter/interfaces/EmployeeCSV.java">
+    <entry file="file://$PROJECT_DIR$/src/com/patterns/adapter/EmployeeCSV.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="287">
           <caret line="26" column="24" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
@@ -430,7 +454,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/patterns/adapter/com/patterns/adapter/interfaces/EmployeeAdapterCSV.java">
+    <entry file="file://$PROJECT_DIR$/src/com/patterns/adapter/EmployeeAdapterCSV.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="227">
           <caret line="27" column="42" selection-start-line="27" selection-start-column="42" selection-end-line="27" selection-end-column="42" />
@@ -449,13 +473,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/patterns/adapter/com/patterns/adapter/interfaces/EmployeeClient.java">
+    <entry file="file://$PROJECT_DIR$/src/com/patterns/adapter/EmployeeClient.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="320">
-          <caret line="16" column="26" lean-forward="true" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+          <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/patterns/factory/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" column="44" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
         </state>
       </provider>
     </entry>

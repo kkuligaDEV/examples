@@ -1,4 +1,4 @@
-package com.patterns.adapter.com.patterns.adapter.interfaces;
+package com.patterns.adapter;
 
 public class EmployeeLDAP {
     private String cn;
